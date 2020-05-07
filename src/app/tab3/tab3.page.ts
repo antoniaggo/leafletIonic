@@ -42,6 +42,8 @@ export class Tab3Page {
       .bindPopup(`<b>${restaurant.title}</b>`, { autoClose: false })
       .addTo(map).openPopup();
     });
+
+    map
   }
 
 }
